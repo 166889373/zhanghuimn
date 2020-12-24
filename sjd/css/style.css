@@ -1,0 +1,463 @@
+body{
+	background-color: #F0F0F0;
+}
+.banner{
+	width:16rem;
+	height:7.125rem;
+}
+header{
+	background-color:rgba(0,0,0,0.3);
+	position: fixed;
+	left: 0; top: 0;
+	width:16rem;
+	height:2.25rem;
+
+}
+header .iconfont{
+	padding: 0.4rem 0.5rem ;
+	font-size: 1rem;
+	color:#FFFFFF;
+}
+header .ss{
+	position: absolute;
+	top:0.3rem;left:11.2rem;
+	color:#FFFFFF;
+	font-size:0.85rem;
+	color:#8C8F94; 
+	display: inline-block;
+	z-index: 8;
+}
+header .gwc{
+	font-size: 1.15rem;
+	color:#FFFFFF;
+	position: absolute;
+	top:0.1rem;right:0.15rem;
+}
+header .fenlei{
+	font-size:0.5rem;
+	margin-left:0.5rem;
+	color:#FFFFFF;
+}
+
+header .search{
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	height: 1.5rem;
+	width: 11.15rem;
+	margin: 0.375rem auto;   
+	margin-left: 2.125rem; 
+	position: relative;
+}   
+header .dong{
+	position: relative;
+}
+header .search input{
+	position: absolute;
+	width: 100%;
+	height:1.5rem;
+	border: none;
+	top:0;left:0;
+	font-size: 0.7rem;
+}
+.content{
+	width:15.5rem;
+	height:9.25rem;
+	margin-top :0.5rem ;
+	margin-left:0.25rem;
+	margin-bottom:0.5rem;
+	background-color:#FFFFFF;
+}
+.content img{
+	width:2.5rem;
+	height:2.5rem;
+}
+
+.content ul{
+	height:9.25rem;
+}
+.content li {
+	width:2.5rem;
+	float:left;
+	margin-top:0.6rem;
+	margin-left:0.75rem;
+	margin-right: 0.55rem;
+
+}
+.content  a{
+	font-size: 0.525rem;
+	color: #3C4144;
+	margin-left:0.25rem;
+}
+.content1{
+	width:15.5rem;
+	height:10.2rem;
+	margin-left:0.25rem;
+	margin-bottom:0.5rem;
+	background-color:#FFFFFF;
+}
+.content1 .title{
+	font-size: 0.6rem;
+	color:#666666;
+	padding-top:0.4rem;
+	padding-left: 1rem;
+	padding-bottom: 0.3rem;
+	border-bottom:1px solid #DADADA;
+	background: url(../img/lantiao.png)no-repeat 0.4rem;
+}
+.content1 .zuo{
+	width: 7.65rem;
+	height:8.575rem;
+	border-right: 1px solid #DADADA;
+	background-color: #FFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content1 .zuo h3{
+	font-size: 0.55rem;
+	margin-top:1.2rem;
+	margin-left: 0.925rem;
+	color: #333333;
+}
+.content1 .zuo p{
+	margin-left: 1rem;
+	font-size: 0.55rem;
+	margin-top: 0.425rem;
+	color: #FF4000;
+}
+.content1 .zuo img{
+	width: 5.9rem;
+	height: 4.125rem;
+	margin-left: 1.15rem;
+	margin-top: 0.875rem;
+}
+.content1 .you .top{
+	width:7.8rem;
+	height:4.2rem;
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FFF;
+}
+.content1 .you .top .li1{
+	width: 3.15rem;
+	margin-left:0.375rem;
+}
+.content1 .you .top h3{
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top: 0.65rem;
+}
+.content1 .you .top p{
+	font-size: 0.55rem;
+	color: #FF4000;
+}
+.content1 .you .top img{
+	width: 3.825rem;
+	height: 4.075rem;
+}
+.content1 .you .bottom{
+	width: 7.8rem;
+	height:4.375rem;
+	background-color: #FFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content1 .you .bottom img{
+	width: 3.5rem;
+	height: 3.75rem;
+	margin-top: 0.325rem;
+}
+.content1 .you .bottom h3{
+	width:2.5rem;
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top: 0.95rem;
+	margin-right: 1.425rem;
+}
+.content1 .you .bottom p{
+	font-size: 0.55rem;
+	color:#FF4000;
+	margin-top:0.2rem;
+}
+.nav1{
+	width: 15.5rem;
+	margin-left:0.25rem;
+}
+.nav1 img{
+	height:2.5rem;
+	width:15.5rem;
+}
+
+.content2{
+	width: 15.5rem;
+	margin-top:0.55rem;
+	margin-left:0.25rem;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+
+}
+.content2 .title1{
+	font-size: 0.6rem;
+	color:#666666;
+	padding-top:0.4rem;
+	padding-left: 1rem;
+	padding-bottom: 0.3rem;
+	border-bottom:1px solid #DADADA;
+	background: url(../img/lantiao.png)no-repeat 0.4rem;
+}
+
+.content2 .zuo{
+	border-right:1px solid #DADADA;
+}
+.content2 .zuo .top{
+	width: 7.8rem;
+	height: 4.2rem;
+	background-color: #FFF;
+	border-bottom: 1px solid #DADADA;
+}
+.content2 .zuo .top .li1{
+	width:2.5rem;
+	margin-left: 0.575rem;
+}
+.content2 .zuo .top h3{
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top: 0.75rem;
+}
+.content2 .zuo .top p{
+	font-size: 0.55rem;
+	color: #FF4000;
+	margin-top:0.5rem;
+}
+.content2 .zuo .top img{
+	width: 4.2rem;
+	height: 4.2rem;
+}
+.content2 .zuo .bottom{
+	width: 7.8rem;
+	height:4.375rem;
+	background-color: #FFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content2 .zuo .bottom img{
+	width: 2.4rem;
+	height: 3.85rem;
+	margin-top: 0.325rem;
+	margin-left: 0.375rem;
+}
+.content2 .zuo .bottom h3{
+	width:4.25rem;
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top: 0.625rem;
+}
+.content2 .zuo .bottom p{
+	font-size: 0.55rem;
+	color:#FF4000;
+	margin-top:0.525rem;
+}
+.content2 .you{
+	width: 7.65rem;
+	height:8.575rem;
+	background-color: #FFF;
+	position: relative;
+}
+.content2 .you h3{
+	margin-left: 0.95rem;
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top:1.125rem;
+} 
+.content2 .you p{
+	margin-left: 0.95rem;
+	font-size: 0.55rem;
+	color: #FF4000;
+	margin-top: 0.475rem;
+}
+.content2 .you img{
+	width: 5.325rem;
+	height: 5.65rem;
+	margin-top: 0.425rem;
+	position: absolute;
+	bottom:0; right: 0.425rem;
+}
+.nav2{
+	width: 15.5rem;
+	margin-left:0.25rem;
+}
+.nav2 img{
+	height:2.525rem;
+	width:15.5rem;
+	margin-top:0.5rem;
+}
+.content3{
+	width: 15.5rem;
+	height:11.2rem;
+	margin-top:0.55rem;
+	margin-left:0.25rem;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content3 .title2{
+	font-size: 0.6rem;
+	color:#666666;
+	padding-top:0.4rem;
+	padding-left: 1rem;
+	padding-bottom: 0.3rem;
+	border-bottom:1px solid #DADADA;
+	background: url(../img/lantiao.png)no-repeat 0.4rem;
+}
+.content3 .zuo{
+	width: 7.65rem;
+	height:8.575rem;
+	border-right: 1px solid #DADADA;
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FFF;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content3 .zuo h3{
+	font-size: 0.55rem;
+	color: #333333;
+	margin-top: 1rem;
+	margin-left:0.95rem;
+}
+.content3 .zuo p{
+	font-size: 0.55rem;
+	color: #FF4000;
+	margin-top: 0.525rem;
+	margin-left:0.95rem;
+}
+.content3 .zuo img{
+	width: 4.825rem;
+	height:5.1rem;
+	margin-right:0.275rem;
+}
+.content3 .zuo .yincang{
+	width: 2.05rem;
+	height: 2.05rem;
+	position: absolute;
+	bottom:-0.625rem; left: 0.475rem;
+}
+.content3 .you .top{
+	width:7.8rem;
+	height:4.2rem;
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FFF;
+	position: relative;
+}
+.content3 .you .top .li1{
+	margin-left:0.625rem;
+}
+.content3 .you .top h3{
+	width: 4.65rem;
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+	color: #333333;
+	margin-top: 0.45rem;
+}
+.content3 .you .top p{
+	font-size: 0.55rem;
+	color: #FF4000;
+	margin-top: 0.5rem;
+}
+.content3 .you .top img{
+	width: 3.7rem;
+	height:2.825rem;
+	position: absolute;
+	bottom: 0; right: 0;
+}
+.content3 .you .bottom{
+	width: 7.8rem;
+	height:4.375rem;
+	background-color: #FFF;
+	border-bottom: 1px solid #DBDBDB;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.content3 .you .bottom img{
+	width:2.975rem;
+	height:4rem;
+	margin-top: 0.3rem;
+	margin-left:0.75rem;
+}
+.content3 .you .bottom .li2{
+	position: absolute;
+	top: 0.95rem; right:0.75rem; 
+}
+.content3 .you .bottom h3{
+	font-size: 0.55rem;
+	color: #333333;
+}
+.content3 .you .bottom p{
+	font-size: 0.55rem;
+	color:#FF4000;
+	margin-top: 0.525rem;
+}
+
+.content4{
+	width: 16rem;
+	height: 1.025rem;
+	margin-bottom: 0.3rem;
+}
+.content4 .zuo{
+	line-height: 1.025rem;
+	margin-left:0.325rem;
+}
+.content4 .zuo a{
+	font-size: 0.35rem;
+	color:#2A8ADE;
+}
+.content4 .zuo span{
+	font-size: 0.35rem;
+	color:#C8C8C8;
+}
+.content4 .you {
+	margin-right:0.725rem;
+	color:#2A8ADE;
+}
+.content4 .you li{
+	line-height:1.3rem;
+	font-size:0.4rem;
+	padding-left: 3.5rem;
+}
+footer{
+	width: 16rem;
+	height: 2.975rem;
+}
+footer .top{
+	text-align: center;
+	line-height: 1.075rem;
+	background-color: #1771D2;
+}
+footer .top a{
+	color: #FFF;
+	font-size: 0.4rem;
+}
+footer .top span{
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #A4D9F9;
+	padding:0 0.4rem 0 0.425rem;
+}
+footer .zhong{
+	line-height: 1.075rem;
+	text-align:center;
+	background-color: #2A8ADE;
+}
+footer .zhong img{
+	width: 0.55rem;
+	height: 0.45rem;
+	margin-top: 0.35rem;
+}
+footer .zhong span{
+	display: inline-block;
+	font-size: 0.4rem;
+	color: #A4D9F9;
+	margin-left: 0.15rem;
+}
+footer .xia{
+	text-align: center;
+	line-height: 1.075rem;
+	background-color: #1771D2;
+}
+footer .xia p{
+	font-size: 0.4rem;
+	color: #FFFF99;
+}
